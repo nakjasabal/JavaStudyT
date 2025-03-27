@@ -1,0 +1,15 @@
+퀴즈1] HighFriend, UnivFriend의 멤버변수 name의 접근지정자를 private으로 수정하면 
+핸들러에서 에러가 발생한다. 이 부분이 정상적으로 동작할 수 있도록 적절히
+수정하시오.
+nex12_project01 패키지를 복사한 후 nex12_project01_quiz01 로 이름을 변경한다. 
+
+퀴즈2] 사용자로부터 입력을 받기 위한 Scanner 인스턴스는 현재 main(), addFriend(), 
+searchInfo(), deleteInfo() 메서드에서 각각 새롭게 생성하고 있다.
+각 메서드를 호출할때마다 새롭게 생성되므로 메모리의 낭비가 발생된다. 
+정적(static) 멤버로 선언하여 프로그램 전체에서 공유할 수 있도록 수정하시오.  
+단, FriendInfoHandler 클래스에 선언한다. 
+nex12_project01 패키지를 복사한 후 nex12_project01_quiz02 로 이름을 변경한다.
+
+퀴즈3] HighFriend, UnivFriend 클래스를 현재 패키지 하위에 myfriend 패키지를 
+생성한 후 이동시키면 에러가 발생된다. 정상적인 동작이 되도록 적절히 수정하시오.
+nex12_project01 패키지를 복사한 후 nex12_project01_quiz03 으로 이름을 변경한다. 
