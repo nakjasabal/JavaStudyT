@@ -7,7 +7,7 @@ public class MyFriendInfoBook {
 	public static Scanner scan = new Scanner(System.in);
 	
 	public static void menuShow() {
-		System.out.println("######## 메뉴를 입력하세요(ver02) ########");
+		System.out.println("######## 메뉴를 입력하세요(ver03) ########");
 		System.out.print("1.고딩친구입력 ");
 		System.out.println("2.대딩친구입력");
 		System.out.print("3.전체정보출력 ");
